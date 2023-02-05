@@ -54,3 +54,37 @@ h1 {
   line-height: 27px;
   margin: 0;
 }
+.projects {
+  background-color: var(--bg-primary);
+  text-align: center;
+}
+.projects-description {
+  font-family: var(--default-font-family);
+  font-size: 18px;
+  line-height: 27px;
+  color: var(--default-font-color);
+}
+.project {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.project-paragraph {
+  font-family: var(--default-font-family);
+  color: var(--default-font-color);
+  font-weight: var(--paragraph-font-weight);
+  font-size: 16px;
+  line-height: 30px;
+  margin-bottom: 50px;
+}
+.project-link {
+  font-family: var(--default-font-family);
+  font-weight: var(--default-font-weight);
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--btn-bg-color);
+  padding: 18px 25px;
+  border: 1px solid var(--btn-bg-color);
+  border-radius: 4px;
+  text-decoration: none;
+}
