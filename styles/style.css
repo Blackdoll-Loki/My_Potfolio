@@ -27,6 +27,11 @@ h2 {
   font-family: var(--heading-font-family);
   margin-bottom: 55px;
 }
+a {
+  text-decoration: none;
+  color: var(--btn-bg-color);
+  font-size: 24px;
+}
 .hero {
   padding: 194.18px 0 271px;
   background-color: var(--bg-secondary);
