@@ -77,7 +77,6 @@ h2 {
 }
 .img-container {
   background-color: var(--bg-secondary);
-  padding: 20px 0;
   border-radius: 20px;
 }
 .project-text {
