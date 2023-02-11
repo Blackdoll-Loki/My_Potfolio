@@ -22,12 +22,13 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles/style.css" />
-    <title>My Portfolio</title>
+    <meta name="description" content="My projects" />
+    <title>Front-end developer Daria Kliamar</title>
   </head>
   <body>
-    <header>
+    <header class="homepage-header">
       <nav class="container d-flex">
-        <a href="/index.html">
+        <a href="/index.html" title="Homepage">
           <img
             src="./img/logo.svg"
             alt="SheCodes logo"
@@ -35,10 +36,22 @@
           />
         </a>
         <ul class="nav-list">
-          <li><a href="./index.html" class="nav-link active">Home</a></li>
-          <li><a href="./about.html" class="nav-link">About</a></li>
-          <li><a href="./work.html" class="nav-link">About</a></li>
-          <li><a href="./contact.html" class="nav-link">Contact</a></li>
+          <li>
+            <a href="./index.html" class="nav-link active" title="Homapage"
+              >Home</a
+            >
+          </li>
+          <li>
+            <a href="./about.html" class="nav-link" title="About page">About</a>
+          </li>
+          <li>
+            <a href="./work.html" class="nav-link" title="Work page">Work</a>
+          </li>
+          <li>
+            <a href="./contact.html" class="nav-link" title="Contact page"
+              >Contact</a
+            >
+          </li>
         </ul>
       </nav>
     </header>
@@ -47,7 +60,9 @@
         <p class="hero-subheading">👋 Hi I am</p>
         <h1>Daria Kliamar</h1>
         <p class="heading paragraph">Frontend Developer, based in Ukraine.</p>
-        <button type="button" class="my-btn">Get Started</button>
+        <a href="./contact.html" class="my-btn" title="Contact page"
+          >Get Started</a
+        >
       </section>
       <section class="projects">
         <p class="projects-description text-center">
@@ -157,13 +172,17 @@
             Let’s work together and i’ll help you by all my best
           </p>
         </div>
-        <a href="mailto:helpmeloki7@gmail.com" class="btn my-btn footer-btn"
+        <a
+          href="./contact.html"
+          class="btn my-btn footer-btn"
+          title="Contact page"
           >Contact me</a
         >
       </div>
       <a
         href="mailto:helpmeloki7@gmail.com"
         class="paragraph email-link d-block text-center mb-5"
+        title="Email Daria"
         >helpmeloki7@gmail.com</a
       >
       <div class="socials d-flex">

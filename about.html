@@ -22,12 +22,42 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles/style.css" />
-    <title>My Portfolio</title>
+    <meta name="description" content="About Daria" />
+    <title>About front-end developer Daria Kliamar</title>
   </head>
   <body>
-    <main class="about-main container">
+    <header>
+      <nav class="container d-flex">
+        <a href="/index.html" title="Homepage">
+          <img
+            src="./img/logo.svg"
+            alt="SheCodes logo"
+            class="logo d-none d-lg-block"
+          />
+        </a>
+        <ul class="nav-list">
+          <li>
+            <a href="./index.html" class="nav-link" title="Homapage">Home</a>
+          </li>
+          <li>
+            <a href="./about.html" class="nav-link active" title="About page"
+              >About</a
+            >
+          </li>
+          <li>
+            <a href="./work.html" class="nav-link" title="Work page">Work</a>
+          </li>
+          <li>
+            <a href="./contact.html" class="nav-link" title="Contact page"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main-container container">
       <section class="row about-section">
-        <div class="col-lg-6 about-section-content">
+        <div class="col-lg-6 about-section-content mb-5">
           <h1 class="about-heading mb-4">Hi I am Daria Kliamar</h1>
           <h2 class="description about-subheading mb-4">
             Frontend Developer, based in Portugal.
@@ -38,12 +68,41 @@
             everything is well explained, homework and deadlines are good for
             keep focus
           </p>
-          <a href="" class="btn my-btn">View all project</a>
+          <a href="./work.html" class="btn my-btn" title="Work page"
+            >View all project</a
+          >
         </div>
-        <div class="col-lg-6">
-          <img src="./img/ava.jpg" alt="avatar" class="img-fluid about-img" />
+        <div class="col-lg-6 about-img mb-5">
+          <img src="./img/ava.jpg" alt="avatar" class="img-fluid rounded-4" />
         </div>
       </section>
     </main>
+    <footer class="container">
+      <div class="footer-block d-none d-md-flex">
+        <div class="footer-text d-flex">
+          <h2 class="footer-heading">Work Inquiry</h2>
+          <p class="description footer-paragraph">
+            Let’s work together and i’ll help you by all my best
+          </p>
+        </div>
+        <a
+          href="./contact.html"
+          class="btn my-btn footer-btn"
+          title="Contact page"
+          >Contact me</a
+        >
+      </div>
+      <a
+        href="mailto:helpmeloki7@gmail.com"
+        class="paragraph email-link d-block text-center mb-5"
+        title="Email Daria"
+        >helpmeloki7@gmail.com</a
+      >
+      <div class="socials d-flex">
+        <img src="./img/facebook.svg" alt="facebook" class="social-icon" />
+        <img src="./img/instagram.svg" alt="instagram" class="social-icon" />
+        <img src="./img/twitter.svg" alt="twitter" class="social-icon" />
+      </div>
+    </footer>
   </body>
 </html>
